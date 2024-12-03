@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.qh.DDBMS.common</groupId>
+        <artifactId>DDBMS-common</artifactId>
+        <version>0.0.0</version>
+    </parent>
+
+    <artifactId>input</artifactId>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.1.43.Final</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-pool2</artifactId>
+            <version>2.11.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.qh.tools</groupId>
+            <artifactId>qh-tools</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.qh.DDBMS.common</groupId>
+            <artifactId>assign-key</artifactId>
+            <version>0.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.qh.DDBMS.common</groupId>
+            <artifactId>decoder</artifactId>
+            <version>0.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.qh.DDBMS.common</groupId>
+            <artifactId>common</artifactId>
+            <version>0.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.qh.DDBMS.common</groupId>
+            <artifactId>encoder</artifactId>
+            <version>0.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>5.2.2.RELEASE</version>
+        </dependency>
+
+        <!-- lombok log配置-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.20</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.30</version>
+        </dependency>
+
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.2.3</version>
+        </dependency>
+        <!-- lombok log配置-->
+    </dependencies>
+</project>
